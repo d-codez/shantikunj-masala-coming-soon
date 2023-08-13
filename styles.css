@@ -1,0 +1,50 @@
+html,
+body {
+  font-family: 'Cinzel', serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgb(0 0 0 / 0.5),
+    rgb(0 0 0 / 0)
+  ),
+   url('images/spice_image.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.section {
+  width: 11111px;
+  background-color: rgba(233, 229, 214, 0.6);
+}
+
+.overlay {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 3em;
+  font-weight: 600;
+  color: #E64848;
+  margin-bottom: 10px;
+}
+
+.message {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #224B0C;
+}
+
+.logo-img {
+  object-fit: cover;
+  max-width: 180px;
+  margin-bottom: 10px;
+}
